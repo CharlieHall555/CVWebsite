@@ -66,6 +66,46 @@
       min-height: 180px;
     }
 
+    /* --- existing styles kept as-is --- */
+
+@media (max-width: 767.98px) {
+  .navbar .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-brand {
+    order: 1;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav {
+    order: 2;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .nav-link {
+    padding: 0.25rem 0;
+    text-align: center;
+  }
+
+  .social-links {
+    order: 3;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .toggle-btn {
+    margin-left: 0 !important;
+  }
+}
+
     .skill-card:hover {
       transform: translateY(-5px);
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
